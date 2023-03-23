@@ -10,14 +10,19 @@
     WEELCOME API generator
     <br>
     <hr>that generates different images
+    <div id="dogimages"><img src="" alt="dogimage"></div>
+    <button id="dogbutton">=Dog Images</button>
 </div>
     <script>
+        const dogimagesdiv=document.getElementById("dogimages");
+        const dogbutton=document.getElementById("dogbutton");
+        function dogimages(){
         fetch('https://dog.ceo/api/breeds/image/random')//this line request URL and  return 'promise'
         .then(Response => Response.json())
         .then(json =>{
             console.log(json.message);
-
-        })
+        })}
+        dogbutton.onclick=()=>dogimages();
     </script>
 </body>
 </html>
