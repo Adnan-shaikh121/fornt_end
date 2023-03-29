@@ -1,0 +1,10 @@
+<button id="myButton">Click Me</button>
+
+<script>
+  const button = document.getElementById("myButton");
+
+  button.addEventListener("click", function() {
+    const buttonText = button.innerText;
+    button.innerText = buttonText.toUpperCase();
+  });
+</script>
