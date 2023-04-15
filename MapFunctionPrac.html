@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map Function Practice</title>
+</head>
+
+<body>
+    <p id="output"></p>
+    <p id="output2"></p>
+    <script>
+        output=document.getElementById("output");
+        const arr = [45, 22, 33];
+
+        let a = arr.map((value)=> {
+            return value +1
+        })
+        b=console.log(a);
+        output.innerHTML="Output is "+a;
+
+        output2=document.getElementById("output2");
+        const arr2=[5,8,45,58,12];
+        let b=arr2.map((value,index,Array)=>{
+            return value,index,Array;
+        })
+        output2.innerHTML="Output is "+b;
+    </script>
+</body>
+
+</html>
