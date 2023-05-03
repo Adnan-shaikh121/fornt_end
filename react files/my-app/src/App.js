@@ -3,9 +3,15 @@ import './App.css';
 function App() {
   return (
     <>
-    <div>
-      adnan this is <b>paragraph</b>
-    </div>
+    <nav>
+      <li>
+        name:adnan
+      </li>
+      <li>
+        hobby:coding
+      </li>
+    </nav>
+    <p>lorem</p>
     </>
   );
 }
