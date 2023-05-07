@@ -7,6 +7,7 @@ function App() {
     {/* <Navbar title="STUDY SONIC" aboutText="About" thisIsCheck="just Cheking" /> */}
     <Navbar/>
     <TextForm heading="text from props"/>
+    
     </>
   );
 }
