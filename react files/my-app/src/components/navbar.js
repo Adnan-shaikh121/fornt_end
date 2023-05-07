@@ -45,7 +45,6 @@ function Navbar(props) {
           </nav>
     </>
   )
-
 }
 Navbar.propTypes = {
     title: PropTypes.string.isRequired,   //<--isRequired is used for you have to use this props compulserily-->
