@@ -28,10 +28,6 @@ export function Footer(props){
                                     <li><a className="dropdown-item" href="#">Something else here</a></li>
                                 </ul>
                             </li>
-                            <li className="nav-item">
-
-                                <a className="nav-link disabled" aria-disabled="true">Disabled</a>
-                            </li>
                         </ul>
                         {props.serarchBar? <form className="d-flex" role="search">
                             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />

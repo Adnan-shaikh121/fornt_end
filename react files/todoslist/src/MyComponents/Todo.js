@@ -1,15 +1,14 @@
 import React from "react";
 
-export const Todo=(Todos)=>{
-    return(
+export const Todo = () => {
+    return (
         <div>
-            <h4>
-                this is h4 from TODO
-            </h4>
+            <h4>Todo List</h4>
+            <p>This is Todo First</p>
             <div>
-                {/* {Todos} */}
-            </div>
+                <button className="btn btn-danger btn-sm">Delete</button>
+                </div>
         </div>
-        
+
     )
 }
