@@ -1,0 +1,3 @@
+<div className="relative flex place-items-center before:absolute before:h-[9000px] before:w-[9800px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-6xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-red-200 after:via-violet-200 after:blur-6xl after:content-[''] before:white:bg-gradient-to-br before:dark:from-transparent before:dark:to-yellow-700 before:dark:opacity-10 after:dark:from-red-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
+    <h1 className='text-4xl'>Hunting Coders</h1>
+</div>

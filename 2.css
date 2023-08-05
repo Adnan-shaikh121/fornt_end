@@ -1,0 +1,56 @@
+.relative {
+    position: relative;
+}
+
+.flex {
+    display: flex;
+}
+
+.place-items-center {
+    place-items: center;
+}
+
+.before {
+    position: absolute;
+    height: 9000px;
+    width: 9800px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background-image: radial-gradient(white, transparent);
+    backdrop-filter: blur(6xl);
+    content: '';
+}
+
+.after {
+    position: absolute;
+    z-index: -20;
+    height: 180px;
+    width: 240px;
+    transform: translateX(33.333%);
+    background-image: conic-gradient(from 0deg at 50% 50%, red 200, violet 200);
+    backdrop-filter: blur(6xl);
+    content: '';
+}
+
+.white {
+    background-image: linear-gradient(to bottom right, transparent, yellow 700);
+}
+
+.dark:before {
+    background-image: linear-gradient(to bottom right, transparent, yellow 700);
+    opacity: 0.1;
+}
+
+.dark:after {
+    background-image: linear-gradient(to bottom right, red 900, #0141ff);
+    opacity: 0.4;
+}
+
+.lg:before {
+    height: 360px;
+}
+
+.z-[-1] {
+    z-index: -1;
+}
